@@ -63,7 +63,7 @@ class Electrodomestico{
     }
 
     verificarAltaGama():boolean{
-        if (electrodomestico1.calcularBalance() > 3 ) {
+        if (this.calcularBalance() > 3 ) {
             return true;
         } else{
             return false;

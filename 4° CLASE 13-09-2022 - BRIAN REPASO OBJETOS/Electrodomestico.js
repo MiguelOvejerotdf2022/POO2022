@@ -46,7 +46,7 @@ var Electrodomestico = /** @class */ (function () {
         return balance;
     };
     Electrodomestico.prototype.verificarAltaGama = function () {
-        if (electrodomestico1.calcularBalance() > 3) {
+        if (this.calcularBalance() > 3) {
             return true;
         }
         else {
@@ -56,7 +56,7 @@ var Electrodomestico = /** @class */ (function () {
     return Electrodomestico;
 }());
 var electrodomestico1 = new Electrodomestico("Licuadora", 500, "WHITE", 5000, 12);
-console.log("PESO: " + electrodomestico1.peso + "kg");
+console.log("PESO: " + electrodomestico1.obtener_Peso() + "kg");
 console.log("BAJO CONSUMO: " + electrodomestico1.bajoConsumo());
 electrodomestico1.setear_Precio(3);
 electrodomestico1.setear_Peso(1);
