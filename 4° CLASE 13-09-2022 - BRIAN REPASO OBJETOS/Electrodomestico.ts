@@ -72,7 +72,7 @@ class Electrodomestico{
 }
 
 let electrodomestico1 = new Electrodomestico("Licuadora",500,"WHITE",5000,12);
-console.log("PESO: " + electrodomestico1.peso + "kg");
+console.log("PESO: " + electrodomestico1.obtener_Peso() + "kg");
 console.log("BAJO CONSUMO: " + electrodomestico1.bajoConsumo());
 
 electrodomestico1.setear_Precio(3);
