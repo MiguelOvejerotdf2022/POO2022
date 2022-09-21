@@ -1,9 +1,9 @@
 class Electrodomestico{
-    nombre:string;
-    precioBase:number;
-    color:string;
-    consumoEnergetico:number;
-    peso:number;
+    private nombre:string;
+    private precioBase:number;
+    private color:string;
+    private consumoEnergetico:number;
+    private peso:number;
 
     constructor(paramNombre:string,paramprecioBase:number,paramColor:string,paramConsumoEnergetico:number,paramPeso:number){
         this.nombre = paramNombre;
